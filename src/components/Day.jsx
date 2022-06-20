@@ -10,7 +10,7 @@ const Day = () => {
   );
 
   return (
-    <div>
+    <>
       <h2>Day {day}</h2>
       <table>
         <tbody>
@@ -19,7 +19,7 @@ const Day = () => {
           ))}
         </tbody>
       </table>
-    </div>
+    </>
   );
 };
 
